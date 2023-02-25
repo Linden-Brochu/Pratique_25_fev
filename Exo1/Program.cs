@@ -33,13 +33,13 @@ var discountAll = new Discount
     NewPrice = 110d,
 };
 
-discountPimentPatate.Items.Add(pimentJalapenoSuperSpicy2000Gamer360NoScope, 1);
-discountPimentPatate.Items.Add(patate, 2);
-discountPimentPatate.Items.Add(carotte, 5);
+discountAll.Items.Add(pimentJalapenoSuperSpicy2000Gamer360NoScope, 1);
+discountAll.Items.Add(patate, 2);
+discountAll.Items.Add(carotte, 5);
 
 var discountCarotte = new Discount
 {
     NewPrice = 100d,
 };
 
-discountPimentPatate.Items.Add(carotte, 60);
+discountCarotte.Items.Add(carotte, 60);
