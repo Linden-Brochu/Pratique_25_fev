@@ -27,3 +27,19 @@ var discountPimentPatate = new Discount
 
 discountPimentPatate.Items.Add(pimentJalapenoSuperSpicy2000Gamer360NoScope, 1);
 discountPimentPatate.Items.Add(patate, 1);
+
+var discountAll = new Discount
+{
+    NewPrice = 110d,
+};
+
+discountPimentPatate.Items.Add(pimentJalapenoSuperSpicy2000Gamer360NoScope, 1);
+discountPimentPatate.Items.Add(patate, 2);
+discountPimentPatate.Items.Add(carotte, 5);
+
+var discountCarotte = new Discount
+{
+    NewPrice = 100d,
+};
+
+discountPimentPatate.Items.Add(carotte, 60);

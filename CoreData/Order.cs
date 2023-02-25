@@ -2,7 +2,7 @@
 
 public class Order
 {
-    internal HashSet<Item> Items = new();
+    internal List<Item> Items = new();
 
     internal Discount? Discount = null;
 
@@ -26,7 +26,7 @@ public class Order
     {
         return new Order()
         {
-            Items = new HashSet<Item>(o.Items)
+            Items = new List<Item>(o.Items)
             {
                 i,
             }
